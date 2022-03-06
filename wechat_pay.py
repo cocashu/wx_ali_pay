@@ -64,7 +64,7 @@ SSLKEY_PATH = "/******/cacert/apiclient_key.pem"
 # =======【curl超时设置】===================================
 CURL_TIMEOUT = 30
 # =======【支付信息】=====================================
-goodsbody = "鸿宇购物广场"  # 商品信息
+goodsbody = '***购物广场'  #商品信息
 out_trade_no = "PY" + time.strftime("%Y%m%d%H%M%S", time.localtime())  # 商户单据号
 total_fee = "1"  # 支付金额
 spbill_create_ip = "192.168.1.1"
